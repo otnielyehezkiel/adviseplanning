@@ -19,21 +19,20 @@
         </div><!--/.nav-collapse -->
       </div>
     </div>
-    
-	<div id="headerwrap">
+    <div id="twrap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h3></h3>
-                    <h1>Advice Planning Banyuwangi</h1>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 himg">
+               <!--  <div class="col-lg-8 col-lg-offset-2 himg">
                     <img src="<?= base_url() ?>assets/img/banyuwangi.jpg" class="img-responsive">
-                </div>
+                </div> -->
                
             </div><!-- /row -->
         </div> <!-- /container -->
     </div><!-- /headerwrap -->
+	
 
     <!-- *****************************************************************************************************************
      SERVICE LOGOS
@@ -65,6 +64,8 @@
             </div>
         </div><! --/container -->
      </div><! --/service -->
+
+
 
 <?php
 	$this->load->view('page/footer');

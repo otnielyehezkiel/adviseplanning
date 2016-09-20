@@ -25,4 +25,5 @@ class homepage extends CI_Controller {
     public function form_badan(){
     	$this->load->view('form_badanusaha',$this->data);
     }
+
 }
